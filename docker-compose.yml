@@ -1,0 +1,19 @@
+services:
+  apresentacao:
+    build:
+      context: ./web
+      dockerfile: Dockerfile
+      args:
+        # "true" libera indexação no Google. Padrão: não indexar (é um diagnóstico do cliente).
+        ALLOW_INDEX: "false"
+        # Domínio público final, usado nas metatags Open Graph (ex.: https://diagnostico.seudominio.com)
+        SITE_URL: ""
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+    expose:
+      - "3000"
+    # No EasyPanel, configure o domínio na aba "Domains" apontando para a porta 3000 deste serviço.
+    # Para rodar fora do EasyPanel, descomente:
+    # ports:
+    #   - "3000:3000"
