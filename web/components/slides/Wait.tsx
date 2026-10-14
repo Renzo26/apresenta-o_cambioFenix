@@ -92,8 +92,7 @@ export default function Wait() {
                 <span className="wait__timer" aria-hidden>
                   {fmt(shown)}
                   <small>s</small>
-                </span>
-                <AnimatePresence>
+                  <AnimatePresence>
                   {loaded && (
                     <motion.span
                       className="wait__check"
@@ -105,7 +104,8 @@ export default function Wait() {
                       abriu
                     </motion.span>
                   )}
-                </AnimatePresence>
+                  </AnimatePresence>
+                </span>
               </figcaption>
             </figure>
           );

@@ -21,8 +21,10 @@ npm run dev        # http://localhost:3000
 | Tela cheia | `F` |
 | Link direto para um slide | `/#slide-4` |
 
+Seis slides, dois temas: **velocidade de carregamento** e **rastreamento**.
 O slide 4 ("Sinta a espera") roda a simulação sozinho na primeira visita; o botão **Repetir** roda de novo.
-O slide 9 tem os controles "Como está / Sugestão" e "Ver sob o sol".
+O slide 6 (rastreamento) usa uma medição própria de 13/10/2026: Chrome simulando celular em 4G lenta,
+3 execuções — Google Ads registra o clique aos ~14,2 s, Analytics aos ~14,5 s, Pixel da Meta aos ~17,8 s.
 
 ## Deploy no EasyPanel (Docker Compose)
 

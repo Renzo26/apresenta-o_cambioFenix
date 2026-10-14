@@ -3,7 +3,7 @@ import SlideHead from "../ui/SlideHead";
 const steps = [
   { n: "01", title: "Vê o anúncio", note: "Instagram, Google, Facebook" },
   { n: "02", title: "Toca no anúncio", note: "O clique é cobrado aqui" },
-  { n: "03", title: "Espera o site abrir", note: "É aqui que perdemos gente", alert: true },
+  { n: "03", title: "Espera o site abrir", note: "Aqui perdemos gente — e o rastreamento", alert: true },
   { n: "04", title: "Chama no WhatsApp", note: "A conversão que importa" },
 ];
 
@@ -39,7 +39,8 @@ export default function Journey() {
       </div>
 
       <p className="lead" data-reveal>
-        Quando a página demora, a pessoa desiste no passo 3 — <strong>depois de o clique já ter sido pago.</strong>
+        Quando a página demora, a pessoa desiste no passo 3 — <strong>depois de o clique já ter sido pago</strong>, e
+        sem deixar rastro nos relatórios.
       </p>
     </div>
   );

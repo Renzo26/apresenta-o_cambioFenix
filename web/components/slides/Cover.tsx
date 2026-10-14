@@ -45,8 +45,8 @@ export default function Cover() {
           <span className="cover__mask"><span className="cover__line"><em>a abrir.</em></span></span>
         </h1>
         <p className="lead" data-intro>
-          Uma leitura sem tecniquês da auditoria do Google sobre <strong>cambiofenix.com</strong> — e o que ela
-          significa para quem investe em anúncios.
+          Dois problemas no site <strong>cambiofenix.com</strong> que pesam direto nas campanhas: a{" "}
+          <strong>velocidade de carregamento</strong> e o <strong>rastreamento</strong> das visitas.
         </p>
         <dl className="cover__meta" data-intro>
           <div>

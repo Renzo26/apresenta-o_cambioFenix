@@ -41,7 +41,7 @@ const scenes = [
 export default function Bottlenecks() {
   return (
     <div className="frame">
-      <SlideHead num="07" label="Onde o tempo se perde" />
+      <SlideHead num="04" label="Onde o tempo se perde" />
       <h2 className="h2" data-reveal>
         Quatro gargalos, <em>em quatro cenas.</em>
       </h2>
